@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/Arifkarimm/webpack-4-starter/issues"
   },
-  "homepage": "https://github.com/Arifkarimm/webpack-4-starter#readme"
+  "homepage": "https://github.com/Arifkarimm/webpack-4-starter#readme",
+  "devDependencies": {
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  }
 }
