@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Arifkarimm/webpack-4-starter#readme",
   "devDependencies": {
     "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
     "@babel/preset-env": "^7.6.0",
     "babel-loader": "^8.0.6",
     "webpack": "^4.40.2",
