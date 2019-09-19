@@ -1,6 +1,6 @@
 import { cube, foo } from './demo.js';
 
-import '../styles/style.css';
+import '../styles/style.scss';
 
 const getOutput = console.log('Hello this is me');
 

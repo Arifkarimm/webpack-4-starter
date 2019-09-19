@@ -106,18 +106,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _demo_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./demo.js */ \"./src/scripts/demo.js\");\n/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/style.css */ \"./src/styles/style.css\");\n/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_style_css__WEBPACK_IMPORTED_MODULE_1__);\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\n\n\nvar getOutput = console.log('Hello this is me');\nconsole.log(Object(_demo_js__WEBPACK_IMPORTED_MODULE_0__[\"cube\"])(3));\nconsole.log(_demo_js__WEBPACK_IMPORTED_MODULE_0__[\"foo\"]);\nconsole.log(getOutput);\n\nvar Student =\n/*#__PURE__*/\nfunction () {\n  function Student() {\n    _classCallCheck(this, Student);\n\n    _defineProperty(this, \"a\", 20);\n  }\n\n  _createClass(Student, [{\n    key: \"toFunc\",\n    value: function toFunc() {\n      console.log(\"test\");\n    }\n  }]);\n\n  return Student;\n}();\n\nvar a = new Student();\na.toFunc();\n\n//# sourceURL=webpack:///./src/scripts/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _demo_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./demo.js */ \"./src/scripts/demo.js\");\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/style.scss */ \"./src/styles/style.scss\");\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_style_scss__WEBPACK_IMPORTED_MODULE_1__);\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\n\n\nvar getOutput = console.log('Hello this is me');\nconsole.log(Object(_demo_js__WEBPACK_IMPORTED_MODULE_0__[\"cube\"])(3));\nconsole.log(_demo_js__WEBPACK_IMPORTED_MODULE_0__[\"foo\"]);\nconsole.log(getOutput);\n\nvar Student =\n/*#__PURE__*/\nfunction () {\n  function Student() {\n    _classCallCheck(this, Student);\n\n    _defineProperty(this, \"a\", 20);\n  }\n\n  _createClass(Student, [{\n    key: \"toFunc\",\n    value: function toFunc() {\n      console.log(\"test\");\n    }\n  }]);\n\n  return Student;\n}();\n\nvar a = new Student();\na.toFunc();\n\n//# sourceURL=webpack:///./src/scripts/index.js?");
 
 /***/ }),
 
-/***/ "./src/styles/style.css":
-/*!******************************!*\
-  !*** ./src/styles/style.css ***!
-  \******************************/
+/***/ "./src/styles/style.scss":
+/*!*******************************!*\
+  !*** ./src/styles/style.scss ***!
+  \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/styles/style.css?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/styles/style.scss?");
 
 /***/ })
 
