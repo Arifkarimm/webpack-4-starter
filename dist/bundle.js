@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"cube\", function() { return cube; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"foo\", function() { return foo; });\n\nfunction cube(x) {\n  return x * x * x;\n}\nconst foo = Math.PI + Math.SQRT2;\n\n\n//# sourceURL=webpack:///./src/scripts/demo.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"cube\", function() { return cube; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"foo\", function() { return foo; });\nfunction cube(x) {\n  return x * x * x;\n}\n\nvar foo = Math.PI + Math.SQRT2;\n\n\n//# sourceURL=webpack:///./src/scripts/demo.js?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _demo_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./demo.js */ \"./src/scripts/demo.js\");\n\n\n\nconsole.log(Object(_demo_js__WEBPACK_IMPORTED_MODULE_0__[\"cube\"])(3)); // 27\nconsole.log(_demo_js__WEBPACK_IMPORTED_MODULE_0__[\"foo\"])\n\n//# sourceURL=webpack:///./src/scripts/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _demo_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./demo.js */ \"./src/scripts/demo.js\");\n\nvar getOutput = console.log('Hello this is me');\nconsole.log(Object(_demo_js__WEBPACK_IMPORTED_MODULE_0__[\"cube\"])(3));\nconsole.log(_demo_js__WEBPACK_IMPORTED_MODULE_0__[\"foo\"]);\nconsole.log(getOutput);\n\n//# sourceURL=webpack:///./src/scripts/index.js?");
 
 /***/ })
 

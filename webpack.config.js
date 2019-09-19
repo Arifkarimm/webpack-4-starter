@@ -9,5 +9,26 @@ module.exports = {
 		filename: 'bundle.js'
 	},
 
-	mode: 'development'
+	mode: 'development',
+
+	module: {
+
+		rules: [
+			
+			{
+
+				test: /\.js$/,
+
+				use: {
+
+					loader: 'babel-loader',
+
+					options: {
+						presets: ['@babel/preset-env']
+					}
+				}
+
+			}
+		]
+	}
 }
