@@ -1,5 +1,7 @@
 import { cube, foo } from './demo.js';
 
+import '../styles/style.css';
+
 const getOutput = console.log('Hello this is me');
 
 console.log(cube(3)); 
