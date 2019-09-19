@@ -14,6 +14,14 @@ module.exports = {
 
 	mode: 'development',
 
+	devServer: {
+
+		port: 9999,
+		open: true,
+		compress: true
+		
+	},
+
 	module: {
 
 		rules: [
